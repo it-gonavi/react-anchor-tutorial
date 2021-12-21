@@ -58,9 +58,9 @@ const MinimalSetup = () => {
 
   const loadAnchor = async () => {
     const programId = new PublicKey(
-      "7oyrzFtYfb8RYGBJ3YgosEXGFe3ezR9NpgeLCnCpcSRX",
+      "7VL1qWNL1JtsMvo4hPSbLFXCX5dV2bNoNZqfHab2GrYv",
     );
-    const connection = new Connection("http://127.0.0.1:8899", {
+    const connection = new Connection("http://192.168.206.14:8899", {
       commitment: "processed",
     });
 
